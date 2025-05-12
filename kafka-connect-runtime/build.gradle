@@ -39,6 +39,8 @@ dependencies {
   }
   runtimeOnly libs.bundles.iceberg.ext
 
+  hive libs.ozone.filesystem.hadoop3
+
   hive libs.iceberg.hive.metastore
   hive(libs.hive.metastore) {
     exclude group: "org.apache.avro", module: "avro"

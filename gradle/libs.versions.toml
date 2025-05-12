@@ -4,6 +4,7 @@ avro-ver = "1.11.3"
 awaitility-ver = "4.2.0"
 bson-ver = "4.11.0"
 hadoop-ver = "3.3.6"
+ozone-ver = "1.4.1"
 hive-ver = "2.3.9"
 http-client-ver = "5.2.1"
 iceberg-ver = "1.5.2"
@@ -20,6 +21,7 @@ avro = { module = "org.apache.avro:avro", version.ref = "avro-ver" }
 bson = { module = "org.mongodb:bson", version.ref = "bson-ver"}
 hadoop-client = { module = "org.apache.hadoop:hadoop-client", version.ref = "hadoop-ver" }
 hadoop-common = { module = "org.apache.hadoop:hadoop-common", version.ref = "hadoop-ver" }
+ozone-filesystem-hadoop3 = { module = "org.apache.ozone:ozone-filesystem-hadoop3", version.ref = "ozone-ver" }
 hive-metastore = { module = "org.apache.hive:hive-metastore", version.ref = "hive-ver" }
 iceberg-api = { module = "org.apache.iceberg:iceberg-api", version.ref = "iceberg-ver" }
 iceberg-aws = { module = "org.apache.iceberg:iceberg-aws", version.ref = "iceberg-ver" }
